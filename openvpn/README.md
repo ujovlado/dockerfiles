@@ -1,6 +1,6 @@
 # OpenVPN
 
-Build:
+- Build:
 
 ```console
 docker build -t openvpn \
@@ -10,13 +10,9 @@ docker build -t openvpn \
   .
 ```
 
-Configure:
+- Create configuration file (e.g. `sample.conf`) in `config` directory.
 
-Create configuration file (e.g. `sample.conf`) in `config` directory.
-
-Run:
-
-Run `openvpn.sh` command with your config name
+- Run `openvpn.sh` command with your config name:
 
 ```console
 ./openvpn.sh sample.conf
